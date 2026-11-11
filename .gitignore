@@ -1,0 +1,40 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Local datasets and generated training/evaluation artifacts
+data/
+dataset/
+train_images/
+test_images/
+tiles/
+runs/
+final_model_evaluation/
+*.cache
+*.tfevents.*
+
+# Model checkpoints and exported archives
+*.pt
+*.pth
+*.onnx
+*.engine
+*.zip
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

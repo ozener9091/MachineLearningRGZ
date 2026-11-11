@@ -1,0 +1,7 @@
+{
+  "inference": "tiled_640x256",
+  "confidence": 0.25,
+  "tile_width": 640,
+  "tile_step": 480,
+  "source_model": "/content/drive/MyDrive/severstal_final_runs/stage2_all_labeled/weights/last.pt"
+}
