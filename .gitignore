@@ -23,7 +23,6 @@ final_model_evaluation/
 *.tfevents.*
 
 # Model checkpoints and exported archives
-*.pt
 *.pth
 *.onnx
 *.engine
